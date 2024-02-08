@@ -28,5 +28,9 @@ public class practice {
     //-- Add element at some index i
     li.add(3,4);
     System.out.println(li);
+
+    //-- Modifying an element at index i
+    li.set(1,10);
+    System.out.println(li);
   }
 }
